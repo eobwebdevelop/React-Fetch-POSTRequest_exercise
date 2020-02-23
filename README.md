@@ -1,6 +1,8 @@
-## Description: The main goal of this exercise is to use a API placed on Heroku to make a POST request to record a new film.
+## Description: 
+The main goal of this exercise is to use a API placed on Heroku to make a POST request to record a new film.
 
-## Instructions: Fill the form and submit then check the API to see your new record: https://post-a-form.herokuapp.com/api/movies/
+## Instructions: 
+Fill the form and submit it, then check the API to see your new record: https://post-a-form.herokuapp.com/api/movies/
 
 ## Deployed version: https://react-fetch-post-request-exercise.netlify.com/
 
