@@ -38,7 +38,7 @@ class FilmRecorder extends Component{
           },
           body: JSON.stringify(this.state),
         };
-        const url = " https://post-a-form.herokuapp.com/api/movies/";
+        const url = "https://post-a-form.herokuapp.com/api/movies/";
     
         fetch(url, config)
         .then(res => res.json())
@@ -65,7 +65,7 @@ class FilmRecorder extends Component{
               <fieldset>
                 <legend>Information</legend>
                 <div className="form-data">
-                  <label htmlFor="title">Title</label>
+                  <label htmlFor="title">Title </label>
                   <input
                     type="text"
                     id="title"
@@ -77,7 +77,7 @@ class FilmRecorder extends Component{
                 </div>
           
                 <div className="form-data">
-                  <label htmlFor="poster">URL</label>
+                  <label htmlFor="poster">URL </label>
                   <input
                     type="text"
                     id="poster"
@@ -89,7 +89,7 @@ class FilmRecorder extends Component{
                 </div>
           
                 <div className="form-data">
-                  <label htmlFor="comment">Comment</label>
+                  <label htmlFor="comment">Comment </label>
                   <textarea
                     type="text"
                     id="comment"

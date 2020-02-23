@@ -11,3 +11,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+
+/*Form*/
+.FormEmployee {
+  display: inline-block;
+  width: 40%;
+}
+fieldset {
+  width: 100%;
+}
+textarea#comment {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  width: 35%;
+  height: 50px;
+}
